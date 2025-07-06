@@ -34,7 +34,7 @@ function showCard() {
 
     // Create and style the birthday message
     let message = document.createElement("p");
-    message.textContent = "Happy Birthday Vy! SPEND A NICE BIRTHDAY !! <3";
+    message.textContent = "Happy Birthday XX! SPEND A NICE BIRTHDAY !! <3";
     message.style.color = "#00120B";
     message.style.fontSize = "24px";
     message.style.textAlign = "center";
@@ -50,7 +50,7 @@ function showCard() {
         if (!document.getElementById("note")) {
             let note = document.createElement("p");
             note.id = "note"; // Add an ID to avoid duplicates
-            note.textContent = "I really didn't get the chance to get to know you well, about your personal tastes, ecc.. but I know DAMN well that you're incredibly sweet. I'm hoping after celebrating your days we'll talk a lot better!! In the meanwhile... ENJOY YOUR DAY!!";
+            note.textContent = "ENJOY YOUR DAY!!";
             note.style.color = "#00120B";
             note.style.fontSize = "18px";
             note.style.fontFamily = "Verdana";
